@@ -22,7 +22,7 @@ graph_config = {
 smart_scraper_graph = SmartScraperGraph(
    prompt="List me all the products name with their price.",
    # also accepts a string with the already downloaded HTML code
-   source="https://www.amazon.in/iphone/s?k=iphone",
+   source="https://www.amazon.com/iphone/s?k=iphone",
    config=graph_config
 )
 

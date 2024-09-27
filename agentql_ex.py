@@ -14,7 +14,8 @@ PRODUCTS = """
             num_reviews
             rating
         }
-    }
+    }]
+    
 }
 """
 NEXT_PAGE_BTN ="""
@@ -23,7 +24,7 @@ NEXT_PAGE_BTN ="""
     next_page_button_disabled
 }
 """
-session = agentql.start_session("https://www.amazon.in/iphone/s?k=iphone")
+session = agentql.start_session("https://www.amazon.com/iphone/s?k=iphone")
 
 session.driver.scroll_to_bottom()
 

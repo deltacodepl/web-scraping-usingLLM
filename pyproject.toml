@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "web-scraping-usingllm"
+version = "0.1.0"
+description = ""
+authors = ["Krzysztof Olszewski <hello@retryjon.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapegraphai = "^1.23"
+python-dotenv = "^1.0.1"
+agentql = "^1.1.0"
+firecrawl-py = "^1.2.4"
+langchain-groq = "^0.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

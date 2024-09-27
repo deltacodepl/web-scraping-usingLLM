@@ -1,11 +1,10 @@
 from firecrawl import FirecrawlApp
 from openai import OpenAI
 from dotenv import load_dotenv
-import os 
-import json 
-import pandas as pd 
+import os
+import json
+import pandas as pd
 from datetime import datetime
-
 
 def scrape_data(url):
     load_dotenv()
